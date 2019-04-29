@@ -1,0 +1,18 @@
+largest = None
+smallest = None
+while True:
+    try:    
+        num = input("Enter an integer number: ")
+        if num == "done" : break
+        n = int(num)
+    except:
+        print("Invalid input")
+#find maximum number
+    if n > largest:
+        largest = n
+# find minimum number        
+    elif smallest is None:
+        smallest < n 
+        smallest = n
+print("Maximum is", largest)    
+print("Minimum is", smallest)
